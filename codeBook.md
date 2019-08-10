@@ -1,71 +1,71 @@
-variable Name | explanation 
-------------- | -------------
-tbodyaccMeanX | mean of time domain x measured by on the X axis  
-tbodyaccMeanY | 
-tbodyaccMeanZ |
-tbodyaccStdX |
-tbodyaccStdY |
-tbodyaccStdZ |
-tgravityaccMeanX |
-tgravityaccMeanY |
-tgravityaccMeanZ |
-tgravityaccStdX |
-tgravityaccStdY |
-tgravityaccStdZ |
-tbodyaccjerkMeanX |
-tbodyaccjerkMeanY |
-tbodyaccjerkMeanZ |
-tbodyaccjerkStdX |
-tbodyaccjerkStdY |
-tbodyaccjerkStdZ |
-tbodygyroMeanX |
-tbodygyroMeanY |
-tbodygyroMeanZ |
-tbodygyroStdX |
-tbodygyroStdY |
-tbodygyroStdZ |
-tbodygyrojerkMeanX |
-tbodygyrojerkMeanY |
-tbodygyrojerkMeanZ |
-tbodygyrojerkStdX |
-tbodygyrojerkStdY |
-tbodygyrojerkStdZ |
-tbodyaccmagMean |
-tbodyaccmagStd |
-tgravityaccmagMean |
-tgravityaccmagStd |
-tbodyaccjerkmagMean |
-tbodyaccjerkmagStd |
-tbodygyromagMean |
-tbodygyromagStd |
-tbodygyrojerkmagMean |
-tbodygyrojerkmagStd |
-fbodyaccMeanX |
-fbodyaccMeanY |
-fbodyaccMeanZ |
-fbodyaccStdX |
-fbodyaccStdY |
-fbodyaccStdZ |
-fbodyaccjerkMeanX |
-fbodyaccjerkMeanY |
-fbodyaccjerkMeanZ |
-fbodyaccjerkStdX |
-fbodyaccjerkStdY |
-fbodyaccjerkStdZ |
-fbodygyroMeanX |
-fbodygyroMeanY |
-fbodygyroMeanZ |
-fbodygyroStdX |
-fbodygyroStdY |
-fbodygyroStdZ |
-fbodyaccmagMean |
-fbodyaccmagStd |
-fbodybodyaccjerkmagMean |
-fbodybodyaccjerkmagStd |
-fbodybodygyromagMean |
-fbodybodygyromagStd |
-fbodybodygyrojerkmagMean |
-fbodybodygyrojerkmagStd |
-activity | numerical class labels [1-6]
-actname | class labels in their activity name [walking, walkingupstairs, walkingdownstairs, sitting, standing, laying]
-subject | subject ID [1-30]
+variable Name | variable description | value range 
+------------- | -------------------- | -----------
+tbodyaccMeanX | mean of time domain x measured by on the X axis  | \[-1, 1\] 
+tbodyaccMeanY | |
+tbodyaccMeanZ | |
+tbodyaccStdX | |
+tbodyaccStdY | |
+tbodyaccStdZ | |
+tgravityaccMeanX | |
+tgravityaccMeanY | |
+tgravityaccMeanZ | |
+tgravityaccStdX | |
+tgravityaccStdY | |
+tgravityaccStdZ | |
+tbodyaccjerkMeanX | |
+tbodyaccjerkMeanY | |
+tbodyaccjerkMeanZ | |
+tbodyaccjerkStdX | |
+tbodyaccjerkStdY | |
+tbodyaccjerkStdZ | |
+tbodygyroMeanX | |
+tbodygyroMeanY | |
+tbodygyroMeanZ | |
+tbodygyroStdX | |
+tbodygyroStdY | |
+tbodygyroStdZ | |
+tbodygyrojerkMeanX | |
+tbodygyrojerkMeanY | |
+tbodygyrojerkMeanZ | |
+tbodygyrojerkStdX | |
+tbodygyrojerkStdY | |
+tbodygyrojerkStdZ | |
+tbodyaccmagMean | |
+tbodyaccmagStd | |
+tgravityaccmagMean | |
+tgravityaccmagStd | |
+tbodyaccjerkmagMean | |
+tbodyaccjerkmagStd | |
+tbodygyromagMean | |
+tbodygyromagStd | |
+tbodygyrojerkmagMean | |
+tbodygyrojerkmagStd | |
+fbodyaccMeanX | | 
+fbodyaccMeanY | |
+fbodyaccMeanZ | |
+fbodyaccStdX | |
+fbodyaccStdY | |
+fbodyaccStdZ | |
+fbodyaccjerkMeanX | | 
+fbodyaccjerkMeanY | |
+fbodyaccjerkMeanZ | |
+fbodyaccjerkStdX | |
+fbodyaccjerkStdY | |
+fbodyaccjerkStdZ | |
+fbodygyroMeanX | |
+fbodygyroMeanY | |
+fbodygyroMeanZ | |
+fbodygyroStdX | |
+fbodygyroStdY | |
+fbodygyroStdZ | |
+fbodyaccmagMean | |
+fbodyaccmagStd | |
+fbodybodyaccjerkmagMean | |
+fbodybodyaccjerkmagStd | |
+fbodybodygyromagMean | |
+fbodybodygyromagStd | |
+fbodybodygyrojerkmagMean | |
+fbodybodygyrojerkmagStd | |
+activity | numerical class labels | \[1-6\]
+actname | class labels in their activity name | \[walking, walkingupstairs, walkingdownstairs, sitting, standing, laying\]
+subject | subject ID | \[1-30\]
