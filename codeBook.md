@@ -1,4 +1,5 @@
 variable Name | explanation 
+------------- | -------------
 tbodyaccMeanX | mean of time domain x measured by on the X axis  
 tbodyaccMeanY | 
 tbodyaccMeanZ |
