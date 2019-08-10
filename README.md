@@ -26,9 +26,9 @@ The five steps were implemented as the following
 <li> the activities in the data set were given descriptive names by </li>
   <ol>
     <li> loading "activity_labels.txt", which links the class labels with their activity name </li>
-    <li> loading test labels (y_test.txt) and training labels (y_train.txt). These files contain numerical ID for each activity. </li>
+    <li> loading test labels (y_test.txt) and training labels (y_train.txt). These files contain class labels for each and every record. </li>
     <li> adding the test and training labels to the main dataframe with variable name "activity" </li>
-    <li> creating a new variable, named "actname", from "activity" by mapping numerical ID their activity name  </li>
+    <li> creating a new variable, named "actname", from "activity" by mapping class labels to their activity name  </li>
   </ol>
 
 <li> the data set were labeled with descriptive variable names by </li>
