@@ -13,7 +13,7 @@ The five steps were implemented as the following
   <li> the training and the test sets were merged by </li>
   <ol>
     <li> loading data files (X_test.txt for test set; X_train.txt for training set) </li>
-    <li> merging train and test data using rbind. The merged data, mergedSet, will be referred to as 'main dataframe'. </li>
+    <li> the training and test data were merged with rbind. The merged data, mergedSet, will be referred to as 'main dataframe'. </li>
   </ol>
 
   <li> extracting only the measurements on the mean and standard deviation by </li>
@@ -26,8 +26,8 @@ The five steps were implemented as the following
 <li> the activities in the data set were given descriptive names by </li>
   <ol>
     <li> loading "activity_labels.txt" </li>
-    <li> loading test labels (y_test.txt) and training labels (y_train.txt). </li>
-    <li> adding the labels to the main dataframe with variable name "activity" </li>
+    <li> loading test labels (y_test.txt) and training labels (y_train.txt). These files contain numerical ID for each activity. </li>
+    <li> adding the test and training labels to the main dataframe with variable name "activity" </li>
     <li> creating a new variable, named "actname", from "activity" by mapping numerical ID to activity label  </li>
   </ol>
 
