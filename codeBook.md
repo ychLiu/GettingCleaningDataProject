@@ -1,71 +1,71 @@
 variable Name | variable description | value range 
 ------------- | -------------------- | -----------
-tbodyaccMeanX | mean of time domain x measured by on the X axis  | \[-1, 1\] 
-tbodyaccMeanY | |
-tbodyaccMeanZ | |
-tbodyaccStdX | |
-tbodyaccStdY | |
-tbodyaccStdZ | |
-tgravityaccMeanX | |
-tgravityaccMeanY | |
-tgravityaccMeanZ | |
-tgravityaccStdX | |
-tgravityaccStdY | |
-tgravityaccStdZ | |
-tbodyaccjerkMeanX | |
-tbodyaccjerkMeanY | |
-tbodyaccjerkMeanZ | |
-tbodyaccjerkStdX | |
-tbodyaccjerkStdY | |
-tbodyaccjerkStdZ | |
-tbodygyroMeanX | |
-tbodygyroMeanY | |
-tbodygyroMeanZ | |
-tbodygyroStdX | |
-tbodygyroStdY | |
-tbodygyroStdZ | |
-tbodygyrojerkMeanX | |
-tbodygyrojerkMeanY | |
-tbodygyrojerkMeanZ | |
-tbodygyrojerkStdX | |
-tbodygyrojerkStdY | |
-tbodygyrojerkStdZ | |
-tbodyaccmagMean | |
-tbodyaccmagStd | |
-tgravityaccmagMean | |
-tgravityaccmagStd | |
-tbodyaccjerkmagMean | |
-tbodyaccjerkmagStd | |
-tbodygyromagMean | |
-tbodygyromagStd | |
-tbodygyrojerkmagMean | |
-tbodygyrojerkmagStd | |
-fbodyaccMeanX | | 
-fbodyaccMeanY | |
-fbodyaccMeanZ | |
-fbodyaccStdX | |
-fbodyaccStdY | |
-fbodyaccStdZ | |
-fbodyaccjerkMeanX | | 
-fbodyaccjerkMeanY | |
-fbodyaccjerkMeanZ | |
-fbodyaccjerkStdX | |
-fbodyaccjerkStdY | |
-fbodyaccjerkStdZ | |
-fbodygyroMeanX | |
-fbodygyroMeanY | |
-fbodygyroMeanZ | |
-fbodygyroStdX | |
-fbodygyroStdY | |
-fbodygyroStdZ | |
-fbodyaccmagMean | |
-fbodyaccmagStd | |
-fbodybodyaccjerkmagMean | |
-fbodybodyaccjerkmagStd | |
-fbodybodygyromagMean | |
-fbodybodygyromagStd | |
-fbodybodygyrojerkmagMean | |
-fbodybodygyrojerkmagStd | |
+tbodyaccMeanX | mean of time domain body acceleration signals on the X axis | \[-1, 1\]
+tbodyaccMeanY | mean of time domain body acceleration signals on the Y axis | \[-1, 1\]
+tbodyaccMeanZ | mean of time domain body acceleration signals on the Z axis | \[-1, 1\]
+tbodyaccStdX | standard deviation of time domain body acceleration signals on the X axis | \[-1, 1\]
+tbodyaccStdY | standard deviation of time domain body acceleration signals on the Y axis | \[-1, 1\]
+tbodyaccStdZ | standard deviation of time domain body acceleration signals on the Z axis | \[-1, 1\]
+tgravityaccMeanX | mean of time domain gravity acceleration signals on the X axis | \[-1, 1\]
+tgravityaccMeanY | mean of time domain gravity acceleration signals on the Y axis | \[-1, 1\]
+tgravityaccMeanZ | mean of time domain gravity acceleration signals on the Z axis | \[-1, 1\]
+tgravityaccStdX | standard deviation of time domain gravity acceleration signals on the X axis | \[-1, 1\]
+tgravityaccStdY | standard deviation of time domain gravity acceleration signals on the Y axis | \[-1, 1\]
+tgravityaccStdZ | standard deviation of time domain gravity acceleration signals on the Z axis | \[-1, 1\]
+tbodyaccjerkMeanX | mean of time domain jerk signals derived from the body linear acceleration on the X axis | \[-1, 1\]
+tbodyaccjerkMeanY | mean of time domain jerk signals derived from the body linear acceleration on the Y axis | \[-1, 1\]
+tbodyaccjerkMeanZ | mean of time domain jerk signals derived from the body linear acceleration on the Z axis | \[-1, 1\]
+tbodyaccjerkStdX | standard deviation of time domain jerk signals derived from the body linear acceleration on the X axis | \[-1, 1\]
+tbodyaccjerkStdY | standard deviation of time domain jerk signals derived from the body linear acceleration on the Y axis | \[-1, 1\]
+tbodyaccjerkStdZ | standard deviation of time domain jerk signals derived from the body linear acceleration on the Z axis | \[-1, 1\]
+tbodygyroMeanX | | \[-1, 1\]
+tbodygyroMeanY | | \[-1, 1\]
+tbodygyroMeanZ | | \[-1, 1\]
+tbodygyroStdX | | \[-1, 1\]
+tbodygyroStdY | | \[-1, 1\]
+tbodygyroStdZ | | \[-1, 1\]
+tbodygyrojerkMeanX | mean of time domain jerk signals derived from the angular velocity on the X axis | \[-1, 1\]
+tbodygyrojerkMeanY | mean of time domain jerk signals derived from the angular velocity on the Y axis | \[-1, 1\]
+tbodygyrojerkMeanZ | mean of time domain jerk signals derived from the angular velocity on the Z axis | \[-1, 1\]
+tbodygyrojerkStdX | standard deviation of time domain jerk signals derived from the angular velocity on the X axis | \[-1, 1\]
+tbodygyrojerkStdY | standard deviation of time domain jerk signals derived from the angular velocity on the Y axis | \[-1, 1\]
+tbodygyrojerkStdZ | standard deviation of time domain jerk signals derived from the angular velocity on the Z axis | \[-1, 1\]
+tbodyaccmagMean | mean of the magnitude of time domain body acceleration signals calculated using the Euclidean norm from the three-dimensional signals | \[-1, 1\]
+tbodyaccmagStd | standard deviaion of the magnitude of time domain body acceleration signals calculated using the Euclidean norm from the three-dimensional signals | \[-1, 1\]
+tgravityaccmagMean | mean of the magnitude of time domain gravity acceleration signals calculated using the Euclidean norm from the three-dimensional signals | \[-1, 1\]
+tgravityaccmagStd | standard deviation of the magnitude of time domain gravity acceleration signals calculated using the Euclidean norm from the three-dimensional signals | \[-1, 1\]
+tbodyaccjerkmagMean | | \[-1, 1\]
+tbodyaccjerkmagStd | | \[-1, 1\]
+tbodygyromagMean | | \[-1, 1\]
+tbodygyromagStd | | \[-1, 1\]
+tbodygyrojerkmagMean | | \[-1, 1\]
+tbodygyrojerkmagStd | | \[-1, 1\]
+fbodyaccMeanX | | \[-1, 1\]
+fbodyaccMeanY | | \[-1, 1\]
+fbodyaccMeanZ | | \[-1, 1\]
+fbodyaccStdX | | \[-1, 1\]
+fbodyaccStdY | | \[-1, 1\]
+fbodyaccStdZ | | \[-1, 1\]
+fbodyaccjerkMeanX | | \[-1, 1\]
+fbodyaccjerkMeanY | | \[-1, 1\]
+fbodyaccjerkMeanZ | | \[-1, 1\]
+fbodyaccjerkStdX | | \[-1, 1\]
+fbodyaccjerkStdY | | \[-1, 1\]
+fbodyaccjerkStdZ | | \[-1, 1\]
+fbodygyroMeanX | | \[-1, 1\]
+fbodygyroMeanY | | \[-1, 1\]
+fbodygyroMeanZ | | \[-1, 1\]
+fbodygyroStdX | | \[-1, 1\]
+fbodygyroStdY | | \[-1, 1\]
+fbodygyroStdZ | | \[-1, 1\]
+fbodyaccmagMean | | \[-1, 1\]
+fbodyaccmagStd | | \[-1, 1\]
+fbodybodyaccjerkmagMean | | \[-1, 1\]
+fbodybodyaccjerkmagStd | | \[-1, 1\]
+fbodybodygyromagMean | | \[-1, 1\]
+fbodybodygyromagStd | | \[-1, 1\]
+fbodybodygyrojerkmagMean | | \[-1, 1\]
+fbodybodygyrojerkmagStd | | \[-1, 1\]
 activity | numerical class labels | \[1-6\]
 actname | class labels in their activity name | \[walking, walkingupstairs, walkingdownstairs, sitting, standing, laying\]
 subject | subject ID | \[1-30\]
