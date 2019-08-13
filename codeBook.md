@@ -1,3 +1,6 @@
+description for the variables in the tidy data set. The data set is derived from the data collected from 30 sujects wearing the Samsung Galaxy S smartphone while performing six different activities. Note the values in the tidy data set are the average within subject and activity. 
+
+
 variable Name | variable description | value range 
 ------------- | -------------------- | -----------
 tbodyaccMeanX | mean of time domain body acceleration signals on the X axis | \[-1, 1\]
